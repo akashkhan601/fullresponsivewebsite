@@ -291,7 +291,7 @@ nav.sticky .logo span {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(../bootstrap-img/program.jpg);
+  background-image: url(bootstrap-img/program.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -494,6 +494,9 @@ span.ah-headline.clip.is-full-width {
   width: 289px;
   min-width: -webkit-fill-available;
 }
+.akash-img {
+  text-align: center;
+}
 
 .about-title p {
   font-family: monospace;
@@ -619,7 +622,7 @@ span.ah-headline.clip.is-full-width {
 #my-services {
   padding: 121px 0px;
   background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-    url(../bootstrap-img/home1.jpg);
+    url(bootstrap-img/home1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1019,7 +1022,7 @@ li.active.mixitup-control-active {
   padding: 120px 0px;
   text-align: center;
   background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-    url(../bootstrap-img/keybord.jpg);
+    url(bootstrap-img/keybord.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1196,7 +1199,7 @@ button.owl-dot {
 #awred-counter-sec {
   padding: 125px 0;
   background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
-    url(../bootstrap-img/pp.jpeg);
+    url(bootstrap-img/pp.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1340,7 +1343,7 @@ button.owl-dot {
 
 #avalable-freelancing {
   background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
-    url(../bootstrap-img/cover.jpg);
+    url(bootstrap-img/cover.jpg);
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -1662,10 +1665,16 @@ button.owl-dot {
 
 /* -------------------------------------------start footer section style---------------------------*/
 
+/* marquee tag dive style */
+.last-massage {
+  margin-top: 10px;
+}
+/*end marquee tag dive style */
+
 footer {
   background: #333;
   color: #f1f1f1;
-  height: 250px;
+  height: 280px;
 }
 
 .footer-div {
